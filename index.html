@@ -1,201 +1,176 @@
-<!DOCTYPE HTML>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-US">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
   <title>Yuxuan Jiang (江宇轩)</title>
 
-  <meta name="author" content="Hongzhou Zhu">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yuxuan Jiang (江宇轩) is a first-year PhD student at Tsinghua University, working on generative models, audio generation and multimodal learning.">
+  <meta name="author" content="Yuxuan Jiang">
 
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
 
-
+  <link rel="stylesheet" href="./assets/css/font.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/publications.css">
+  <link rel="stylesheet" href="./stylesheet.css">
+</head>
 
 <body>
-  <table
-    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr style="padding:0px">
-                <td style="padding:2.5%;width:63%;vertical-align:middle">
-                  <p style="text-align:center">
-                    <name>Yuxuan Jiang (江宇轩)</name> <br>
-                  </p>
-                 
-                  <p align="justify">
-                    I am a first-year PhD student at
-                    <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a>.
-                  </p>
+  <div class="wrapper">
 
-                  <p align="justify">
-                    My research interest includes generative models such as <strong>Generative Models</strong>, <strong>Audio Generation</strong> and <strong>Multimodal Learning</strong>.
-                  </p>
+    <!-- ===== Top row: photo (left) + intro (right) ===== -->
+    <div class="hero">
+      <div class="hero-left">
+        <a class="image avatar"><img src="./images/江宇轩.jpg" alt="avatar" /></a>
+        <h1>Yuxuan Jiang</h1>
+        <span class="cn">江宇轩</span>
+        <position style="font-size:1.10rem;">First-year PhD Student</position>
+        <affil>Tsinghua University</affil>
+        <email>jiangyux25@mails.tsinghua.edu.cn</email>
+        <div class="social-icons">
+          <a href="https://scholar.google.com/citations?hl=zh-CN&tzom=-480&user=PwXJmtcAAAAJ" target="_blank" rel="noopener" title="Google Scholar">
+            <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
+          </a>
+          <a href="mailto:jiangyux25@mails.tsinghua.edu.cn" title="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
 
-                  <p style="text-align:center">
-                    <a href="mailto:jiangyux25@mails.tsinghua.edu.cn">Email</a> &nbsp/&nbsp
-                    <a href="https://scholar.google.com/citations?hl=zh-CN&tzom=-480&user=PwXJmtcAAAAJ">Google Scholar</a>
-                  </p>
-                </td>
-                
-            </tbody>
-          </table>
+      <div class="hero-right">
+        <p>I am <strong>Yuxuan Jiang</strong> (江宇轩), a first-year PhD student at
+          <a href="https://www.tsinghua.edu.cn/" target="_blank" rel="noopener">Tsinghua University</a>.
+          My research focuses on <strong>generative models</strong>, with a particular emphasis on
+          <strong>audio generation</strong> and <strong>multimodal learning</strong> — building controllable,
+          high-fidelity text-to-audio systems.</p>
 
+        <p style="color: #1565C0;">I am always happy to chat about audio generation, diffusion models, and
+          multimodal learning — feel free to reach out by email.</p>
+      </div>
+    </div>
 
-          <table align="center" border="0" cellpadding="10" cellspacing="0" width="100%">
-            <tbody>
-              <tr>
-                <td valign="middle" width="100%">
-                  <heading>News </heading>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+    <!-- ===== News (full width) ===== -->
+    <div class="block">
+      <h2 id="news">News</h2>
+      <ul>
+        <li><strong>[2026.06]</strong> 🎉 One paper:
+          <a href="https://arxiv.org/abs/2606.15186" target="_blank" rel="noopener"><strong>FreeSonic: Training-Free Temporal-Aware Decoupled Attention for Precise Audio Editing</strong></a>
+          accepted by <strong>Interspeech 2026</strong>.</li>
+        <li><strong>[2026.04]</strong> 🎉 One paper:
+          <a href="https://arxiv.org/abs/2510.08878" target="_blank" rel="noopener"><strong>ControlAudio: Tackling Text-Guided, Timing-Indicated and Intelligible Audio Generation via Progressive Diffusion Modeling</strong></a>
+          accepted by <strong>ACL 2026 Main (Oral)</strong>.</li>
+        <li><strong>[2026.01]</strong> 🚀 Our joint video-audio generation model is released on
+          <a href="https://www.vidu.cn/create/text2video" target="_blank" rel="noopener"><strong>Vidu Q3 </strong></a>!
+          I developed the high-fidelity 48&nbsp;kHz stereo audio VAE that powers its audio generation.</li>
+        <li><strong>[2026.01]</strong> 🎉 One paper:
+          <a href="https://arxiv.org/abs/2601.02731" target="_blank" rel="noopener"><strong>Omni2Sound: Towards Unified Video-Text-to-Audio Generation</strong></a>
+          accepted by <strong>CVPR 2026 (Highlight)</strong>.</li>
+        <li><strong>[2025.07]</strong> 🎉 One paper:
+          <a href="https://arxiv.org/abs/2507.08557" target="_blank" rel="noopener"><strong>FreeAudio: Training-Free Timing Planning for Controllable Long-Form Text-to-Audio Generation</strong></a>
+          accepted by <strong>ACM MM 2025 (Oral)</strong>.</li>
+        <li><strong>[2025.03]</strong> 🚀 Our text-to-audio model is released on
+          <a href="https://www.vidu.cn/text2audio" target="_blank" rel="noopener"><strong>Vidu Q1 </strong></a>!
+          I developed the text-to-audio and timing-controlled systems that power its audio generation capabilities.</li>
+      </ul>
+    </div>
 
-          <ul>
-            <li><span style="color: gray" size="6px">[2026.04]</span>
-              🎉 One paper: <a href="https://arxiv.org/abs/2510.08878">
-                <strong>
-                  ControlAudio: Tackling Text-Guided, Timing-Indicated and Intelligible Audio Generation via Progressive Diffusion Modeling
-                </strong>
-                </a> accepted by <strong>ACL 2026 Main (Oral)</strong>.
-            </li>
+    <!-- ===== Selected Publications (full width) ===== -->
+    <div class="block">
+      <h2 style="margin: 40px 0px 10px;">Selected Publications
+        <temp style="font-size:15px;">[</temp><a href="https://scholar.google.com/citations?hl=zh-CN&tzom=-480&user=PwXJmtcAAAAJ" target="_blank" rel="noopener" style="font-size:15px;">Google Scholar</a><temp style="font-size:15px;">]</temp>
+      </h2>
 
-            <li><span style="color: gray" size="6px">[2026.01]</span>
-              🎉 One paper: <a href="https://arxiv.org/abs/2601.02731"><strong>Omni2Sound: Towards Unified Video-Text-to-Audio Generation
-              </strong>
-              </a> accepted by <strong>CVPR 2026 (Highlight)</strong>.
-            </li>
+      <div class="publications">
+        <ol class="bibliography">
 
-            <li><span style="color: gray" size="6px">[2025.07]</span>
-              🎉 One paper: <a href="https://arxiv.org/abs/2507.08557"><strong>FreeAudio: Training-Free Timing Planning for Controllable Long-Form Text-to-Audio Generation
-              </strong></a> accepted by <strong>ACM MM 2025 (Oral)</strong>.
-            </li>
-
-            <li><span style="color: gray" size="6px">[2025.03]</span>
-              🎉 Our text-to-audio model is released on <a href="https://www.vidu.cn/text2audio"><strong>Vidu</strong></a>! I developed the <strong>text-to-audio</strong> and <strong>timing-controlled</strong> systems that power its audio generation capabilities.
-            </li>
-  
-          </ul>
-
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr>
-                <td style="padding:20px;width:100%;vertical-align:middle">
-                  <heading>Publications</heading>
-                </td>
-         
-              </tr>
-            </tbody>
-      
-          </table>
-         
-          
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-
-            <tr>
-                <td style="padding:25px;width:35%;vertical-align:middle">
-                  <div class="one">
-                    <img src='images/ControlAudio.png' height="150" width="250">
-                  </div>
-                </td>
-                <td style="padding:25px;width:70%;vertical-align:middle">
-                  <a href="https://arxiv.org/abs/2510.08878">
-                    <papertitle>ControlAudio: Tackling Text-Guided, Timing-Indicated and Intelligible Audio Generation via Progressive Diffusion Modeling
-                    </papertitle>
-                  </a>
-                  <br /><br />
-                  <strong>Yuxuan Jiang</strong>,
-                  Zehua Chen,
-                  Zeqian Ju,
-                  Yusheng Dai,
-                  Weibei Dou,
-                  Jun Zhu<sup>&dagger;</sup>
-                  <br /><br />
-                  <strong>ACL 2026 Main (Oral)</strong>
-                  <br>
-                  <a href="https://arxiv.org/abs/2510.08878">Paper</a>&nbsp/&nbsp
-                  <a href="https://control-audio.github.io/Control-Audio/">Website</a>&nbsp/&nbsp
-                  </p>
-                </td>
-            </tr>
-            
-            <tr>
-                <td style="padding:25px;width:35%;vertical-align:middle">
-                  <div class="one">
-                    <img src='images/Omni2Sound.png' height="150" width="250">
-                  </div>
-                </td>
-                <td style="padding:25px;width:70%;vertical-align:middle">
-                  <a href="https://arxiv.org/abs/2601.02731">
-                    <papertitle>Omni2Sound: Towards Unified Video-Text-to-Audio Generation
-                    </papertitle>
-                  </a>
-                  <br /><br />
-                  Yusheng Dai,
-                  Zehua Chen,
-                  <strong>Yuxuan Jiang</strong>,
-                  Hongke Qiu,
-                  Jian Fei,
-                  Jun Zhu<sup>&dagger;</sup>
-                  <br /><br />
-                  <strong>CVPR 2026 (Highlight)</strong>
-                  <br>
-                  <a href="https://arxiv.org/abs/2601.02731">Paper</a>&nbsp/&nbsp
-                  <a href="https://omni2sound.github.io/">Website</a>&nbsp/&nbsp
-                  </p>
-                </td>
-            </tr>
-
-            <tr>
-                <td style="padding:25px;width:35%;vertical-align:middle">
-                  <div class="one">
-                    <img src='images/FreeAudio.png' height="150" width="250">
-                  </div>
-                </td>
-                <td style="padding:25px;width:70%;vertical-align:middle">
-                  <a href="https://arxiv.org/abs/2507.08557">
-                    <papertitle>FreeAudio: Training-Free Timing Planning for Controllable Long-Form Text-to-Audio Generation
-                    </papertitle>
-                  </a>
-                  <br /><br />
-                  <strong>Yuxuan Jiang</strong>,
-                  Zehua Chen,
-                  Zeqian Ju,
-                  Chang Li,
-                  Weibei Dou,
-                  Jun Zhu<sup>&dagger;</sup>
-                  <br /><br />
-                  <strong>ACM MM 2025 (Oral)</strong>
-                  <br>
-                  <a href="https://arxiv.org/abs/2507.08557">Paper</a>&nbsp/&nbsp
-                  <a href="https://freeaudio.github.io/FreeAudio/">Website</a>&nbsp/&nbsp
-                  </p>
-                </td>
-            </tr>
-
-          </table>
+          <li>
+            <div class="pub-row">
+              <div class="col-sm-3" style="position: relative;padding-right: 15px;padding-left: 15px;">
+                <img src="./images/FreeSonic.png" class="teaser" alt="FreeSonic" />
+              </div>
+              <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+                <div class="title"><a href="https://arxiv.org/abs/2606.15186" target="_blank" rel="noopener">FreeSonic: Training-Free Temporal-Aware Decoupled Attention for Precise Audio Editing</a></div>
+                <div class="author"><strong>Yuxuan Jiang</strong>, Mingyang Han, Yusheng Dai, Andong Wang, Tianhong Zhou, Jiaxin Ye, Dongxiao Wang, Haoxiang Shi, Boyu Li, Jun Song, Cheng Yu, Bo Zheng, Weibei Dou, Zehua Chen<sup>&dagger;</sup>, Jun Zhu<sup>&dagger;</sup></div>
+                <div class="periodical"><em>Annual Conference of the International Speech Communication Association <strong>(INTERSPEECH)</strong>, 2026.</em></div>
+                <div class="links">
+                  <a href="https://free-sonic.github.io/" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">Project Page</a>
+                  <a href="https://arxiv.org/abs/2606.15186" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">arXiv</a>
+                </div>
+              </div>
+            </div>
+          </li>
 
           <br />
-<br />
 
-<p align="left">
-  <font size="2"><a href="https://people.eecs.berkeley.edu/~barron/">website template</a> </font>
-</p>
+          <li>
+            <div class="pub-row">
+              <div class="col-sm-3" style="position: relative;padding-right: 15px;padding-left: 15px;">
+                <img src="./images/ControlAudio.png" class="teaser" alt="ControlAudio" />
+              </div>
+              <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+                <div class="title"><a href="https://arxiv.org/abs/2510.08878" target="_blank" rel="noopener">ControlAudio: Tackling Text-Guided, Timing-Indicated and Intelligible Audio Generation via Progressive Diffusion Modeling</a></div>
+                <div class="author"><strong>Yuxuan Jiang</strong>, Zehua Chen, Zeqian Ju, Yusheng Dai, Weibei Dou, Jun Zhu<sup>&dagger;</sup></div>
+                <div class="periodical"><em>Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026.</em></div>
+                <div class="links">
+                  <a href="https://control-audio.github.io/Control-Audio/" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">Project Page</a>
+                  <a href="https://arxiv.org/abs/2510.08878" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">arXiv</a>
+                  <strong style="color:#000">Oral</strong>
+                </div>
+              </div>
+            </div>
+          </li>
 
-        </td>
-      </tr>
+          <br />
 
+          <li>
+            <div class="pub-row">
+              <div class="col-sm-3" style="position: relative;padding-right: 15px;padding-left: 15px;">
+                <img src="./images/Omni2Sound.png" class="teaser" alt="Omni2Sound" />
+              </div>
+              <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+                <div class="title"><a href="https://arxiv.org/abs/2601.02731" target="_blank" rel="noopener">Omni2Sound: Towards Unified Video-Text-to-Audio Generation</a></div>
+                <div class="author">Yusheng Dai, Zehua Chen, <strong>Yuxuan Jiang</strong>, Hongke Qiu, Jian Fei, Jun Zhu<sup>&dagger;</sup></div>
+                <div class="periodical"><em>IEEE / CVF Computer Vision and Pattern Recognition Conference <strong>(CVPR)</strong>, 2026.</em></div>
+                <div class="links">
+                  <a href="https://omni2sound.github.io/" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">Project Page</a>
+                  <a href="https://arxiv.org/abs/2601.02731" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">arXiv</a>
+                  <strong style="color:#000">Highlight</strong>
+                </div>
+              </div>
+            </div>
+          </li>
 
-  </table>
+          <br />
+
+          <li>
+            <div class="pub-row">
+              <div class="col-sm-3" style="position: relative;padding-right: 15px;padding-left: 15px;">
+                <img src="./images/FreeAudio.png" class="teaser" alt="FreeAudio" />
+              </div>
+              <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+                <div class="title"><a href="https://arxiv.org/abs/2507.08557" target="_blank" rel="noopener">FreeAudio: Training-Free Timing Planning for Controllable Long-Form Text-to-Audio Generation</a></div>
+                <div class="author"><strong>Yuxuan Jiang</strong>, Zehua Chen, Zeqian Ju, Chang Li, Weibei Dou, Jun Zhu<sup>&dagger;</sup></div>
+                <div class="periodical"><em>ACM International Conference on Multimedia <strong>(ACM MM)</strong>, 2025.</em></div>
+                <div class="links">
+                  <a href="https://freeaudio.github.io/FreeAudio/" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">Project Page</a>
+                  <a href="https://arxiv.org/abs/2507.08557" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">arXiv</a>
+                  <strong style="color:#000">Oral</strong>
+                </div>
+              </div>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+    </div>
+
+    <p style="text-align:center;margin-top:30px;"><small>&copy; Yuxuan Jiang, 2026</small></p>
+
+  </div>
 </body>
 
 </html>
