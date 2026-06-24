@@ -21,6 +21,9 @@ div.wrapper {
   align-items: center;
   gap: 42px;
   margin-bottom: 10px;
+  max-width: 880px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-left {
@@ -88,13 +91,26 @@ affil {
   line-height: 2rem;
 }
 
-/* ---- News & Publications: same width as the hero (follows .wrapper above) ---- */
+/* ---- News & Publications: same width & alignment as the hero ----
+   The hero (.hero) and the .block sections all fill the same .wrapper,
+   so this just removes the default list indent that made News/Publications
+   look narrower and shifted to the right than the hero above. ---- */
 .block {
   margin: 0 auto;
 }
 
 .block h2 {
   text-align: center;
+}
+
+/* Align News list flush with the hero's left/right edges (kill <ul> indent) */
+.block > ul {
+  margin: 0;
+  padding-left: 1.1em;   /* just enough room for the bullet, not the browser default ~40px */
+}
+
+.block > ul > li {
+  margin-bottom: 8px;
 }
 
 /* ---- Publications: identical size, no whitespace, no cropping.
